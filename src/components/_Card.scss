@@ -3,11 +3,34 @@
     flex-direction: column;
     width: 300px;
     height: 346px;    
-    border: 1px solid gray;
+    border: none;
     margin: 20px;
     
     .text{
-        margin: 0;
+        width: 191px;
+        height: 22px;
+        margin: 0 0 5px;
+        font-family: Avenir;
+        font-size: 16px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+    .category{
+        width: 191px;
+        height: 15px;
+        margin: 5px 0 31px;
+        opacity: 0.5;
+        font-family: Avenir-Roman;
+        font-size: 11px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-transform:uppercase;
     }
     .content-img{
         display: flex;
