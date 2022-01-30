@@ -1,4 +1,5 @@
 import Card from "./components/Card.js";
+
 import "./App.scss";
 
 
@@ -69,10 +70,10 @@ const App = ()=> {
     },
   ]
   return (
+    
     products.map((product)=>{
-      return (
+      return (   
       <div>
-        
         <Card 
         title={product.title}
         type ={product.type}
@@ -84,7 +85,9 @@ const App = ()=> {
       </div>
       )
     })
+    
   )
+  
 }
 
 export default App;
