@@ -41,6 +41,16 @@
     .content-text{
         display: flex;
     }
+    .cartPlus{
+        color: #131313;
+        font-size: 25px;
+    }
+    .stars{
+        display: flex;
+        svg{
+            margin: 2px;
+        }
+    }
 }
 
 .not-available{

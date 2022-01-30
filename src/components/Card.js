@@ -2,7 +2,7 @@ import "./_Card.scss";
 import "./_Modal.scss";
 import { useState } from "react";
 import { BsCartPlus } from "react-icons/bs";
-
+import { BsFillStarFill } from "react-icons/bs";
 
 const Card = ({ title, type, price, img, isAvailable, onSale }) => {
     const [mostrarModal, setMostarModal] = useState(false)
@@ -32,8 +32,15 @@ const Card = ({ title, type, price, img, isAvailable, onSale }) => {
             <p className="category">{type}</p>
             <div className="content-text">
             <p className="text">$ {price}</p>
-            <div><BsCartPlus /></div>
+            <div className="cartPlus"><BsCartPlus /></div>
             </div>
+            <div className="stars">
+                <BsFillStarFill/>
+                <BsFillStarFill/>
+                <BsFillStarFill/>
+                <BsFillStarFill/>
+                
+            </div> 
             
 
            
